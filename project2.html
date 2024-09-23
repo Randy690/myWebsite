@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randeep Mangat</title>
+    <link rel="stylesheet" href="styles/navbarstyle.css">
+    <link rel="stylesheet" href="project2/caloriestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+           <li> <a href="index.html">Home</a></li>
+           <li> <a href="projects.html">Projects</a></li>
+           <li> <a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+    <h1>Calorie Counter</h1>
+    <div class="container">
+        <form id="calorie-counter">
+            <label for="budget"> Budget </label>
+                <input id="budget" type="number" min="0" placeholder="Daily calorie budget" required/>
+            
+            <fieldset id="breakfast">
+                <legend>Breakfast</legend>
+                <div class="input-container">
+                </div>
+            </fieldset>
+            
+            <fieldset id="lunch">
+                <legend>Lunch</legend>
+                <div class="input-container">
+                </div>
+            </fieldset>
+            
+            <fieldset id="dinner">
+                <legend>Dinner</legend>
+                <div class="input-container">
+                </div>
+            </fieldset>
+            
+            <fieldset id="snacks">
+                <legend>Snacks</legend>
+                <div class="input-container">
+                </div>
+            </fieldset>
+            
+            <fieldset id="exercise">
+                <legend>Exercise</legend>
+                <div class="input-container">
+                </div>
+            </fieldset>
+
+            <div class="controls">
+                <span>
+                    <label for="entry-dropdown">Add food or exercise:</label>
+                        
+                        <select name="options" id="entry-dropdown">
+                            <option value="breakfast" selected="selected">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                            <option value="snacks">Snacks</option>
+                            <option value="exercise">Exercise</option>
+                        </select>
+                        
+                        <button id="add-entry" type="button">Add Entry</button>
+                </span>
+            </div>        
+        </div>
+        <div>
+            <button type="submit">Calculate Remaining Calories</button>
+            <button type="button" id="clear">Clear.</button>
+        </div>
+</form>
+<div class="output hide" id="output">
+</div>
+</main>
+<script src="project2/caloriescript.js"></script>
+</body>

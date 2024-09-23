@@ -1,0 +1,68 @@
+body {
+    background-color: #0a0a23;
+  }
+  h1{
+    font-family: "MedievalSharp", cursive;
+    font-style: normal;
+    max-width: 500px;
+    max-height: 400px;
+    margin: 30px auto 0px;
+    padding: 20px;
+    background-image: linear-gradient(#889c9b, #937460);
+    text-align: center;
+    color: #66240d;
+  }
+  
+  #text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+    font-family: "MedievalSharp";
+    font-weight: 400;
+  }
+  
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #938f71;
+    background-image: linear-gradient(#a59075, #889c9b);
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 20px;
+  }
+  
+  #controls,
+  #stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+    font-family: "MedievalSharp", cursive;
+    font-style: normal;
+    font-size: 1.05rem;
+  }
+  
+  .stat {
+    padding-right: 10px;
+    font-family: "MedievalSharp", cursive;
+    font-style: normal;
+  }
+  
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #938f71;
+    background-image: linear-gradient(#938f71, #889c9b);
+    border: 3px solid #484635;
+    font-family: "MedievalSharp", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.05rem;
+  }

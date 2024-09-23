@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platformer</title>
+    <link rel="stylesheet" href="styles/navbarstyle.css">
+    <link rel="stylesheet" href="project8/platformerstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+       <li> <a href="index.html">Home</a></li>
+       <li> <a href="projects.html">Projects</a></li>
+       <li> <a href="contact.html">Contact Me</a></li>
+    </ul>
+</nav>
+    
+    <div class="start-screen">
+        <h1 class="main-title">Platformer</h1>
+        <p class="instructions">
+          Help the main player navigate to the yellow checkpoints.
+        </p>
+        <p class="instructions">
+          Use the keyboard arrows to move the player around.
+        </p>
+        <p class="instructions">You can also use the spacebar to jump.</p>
+  
+        <div class="btn-container">
+          <button class="btn" id="start-btn">Start Game</button>
+        </div>
+      </div>
+  
+      <div class="checkpoint-screen">
+        <h2>Congrats!</h2>
+        <p>You reached the last checkpoint.</p>
+      </div>
+  
+      <canvas id="canvas"></canvas>
+  
+
+    <script src="project8/platformerscript.js"></script>
+</body>

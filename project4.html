@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles/navbarstyle.css">
+    <link rel="stylesheet" href="project4/palindromestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+           <li> <a href="index.html">Home</a></li>
+           <li> <a href="projects.html">Projects</a></li>
+           <li> <a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div class="palindrome-container">
+    <h1 class="title">Palindrome Checker</h1>
+    <div class="palindrome-checker">
+        <label for="text-input">Enter in a word or phrase to see if it is a palindrome: </label><br>
+        <input id = "text-input" type="text" />
+        <button id = "check-btn">Check</button>
+        <div class="results-div hidden" id = "result"></div>
+        <script src="project4/palindrome.js"></script>
+    </div>
+
+    <div class="palindrome-definition">
+        <strong>Palindrome:</strong>
+        <p> a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.</p>
+    </div>
+    </div>
+</body>
+</html>

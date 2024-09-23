@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles/navbarstyle.css">
+    <link rel="stylesheet" href="project9/pokedexstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+       <li> <a href="index.html">Home</a></li>
+       <li> <a href="projects.html">Projects</a></li>
+       <li> <a href="contact.html">Contact Me</a></li>
+    </ul>
+</nav>
+  <main>
+    <div class="container">
+    
+      <form role="search" id="search-form">
+      <label for="search-input">Search for Pokémon Name or ID:</label><br>
+      <input name="pokemon" id="search-input" placeholder="Search..." required />
+      <button id="search-button">Search</button>
+    </form>
+  
+    <div class = "output">
+    
+    <div class = "top-container">
+      <div class = "name-id">
+        <span id = "pokemon-name"></span>
+        <span id = "pokemon-id"></span>
+      </div>
+      <div class = "size">
+        <span id = "weight"></span>
+        <span id = "height"></span>
+      </div>
+      <div id="sprite-container" class="sprite-container"></div>
+      <div id="types"></div>
+    </div>
+    
+    
+    <div class = "bottom-container">
+      <table>
+        <tr>
+          <th>Base</th>
+          <th>Stats</th>
+        </tr>
+        <tr>
+          <td>HP:</td>
+          <td id="hp"></td>
+        </tr>
+        <tr>
+          <td>Attack:</td>
+          <td id="attack"></td>
+        </tr>
+        <tr>
+          <td>Defense:</td>
+          <td id="defense"></td>
+        </tr>
+        <tr>
+          <td>Sp. Attack:</td>
+          <td id="special-attack"></td>
+        </tr>
+        <tr>
+          <td>Sp. Defense:</td>
+          <td id="special-defense"></td>
+        </tr>
+        <tr>
+          <td>Speed:</td>
+          <td id="speed"></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+  </div>
+  </main>
+
+    <script src="project9/pokedex.js"></script>
+</body>

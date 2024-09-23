@@ -1,0 +1,61 @@
+*{
+    font-family: "Wittgenstein", serif;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+#text-input{
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid hsla(205, 100%, 50%, 0.856);
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+div{
+    display: block;
+    align-items: center;
+}
+.palindrome-checker{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    padding: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.palindrome-definition{
+    text-align: center;
+    background-color: #1067d7;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 400px;
+    color: white;
+}
+.palindrome-container{
+    padding: 10px;
+    min-width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 80px;
+}
+#check-btn{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.15rem;
+    background-color: hsl(205, 92%, 60%);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 20px;
+    border: 6px solid hsla(0, 0%, 0%, 0.201);border: 2px solid hsla(0, 0%, 0%, 0.201);
+}

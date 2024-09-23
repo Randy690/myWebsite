@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randeep Mangat</title>
+    <link rel="stylesheet" href="styles/navbarstyle.css">
+    <link rel="stylesheet" href="project3/rpgstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+       <li> <a href="index.html">Home</a></li>
+       <li> <a href="projects.html">Projects</a></li>
+       <li> <a href="contact.html">Contact Me</a></li>
+    </ul>
+</nav>
+    <h1>Dragon Slayer</h1>
+    <div id="game">
+        <div id="stats">
+          <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+          <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+          <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+        </div>
+        <div id="controls">
+          <button id="button1">Go to store</button>
+          <button id="button2">Go to cave</button>
+          <button id="button3">Fight dragon</button>
+        </div>
+        <div id="monsterStats">
+          <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+          <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+        <div id="text">
+          Welcome to Dragon Slayer. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+        </div>
+      </div>
+      <script src="project3/rpg.js"></script>
+
+</body>

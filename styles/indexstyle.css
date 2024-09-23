@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(90deg, #3a3d40 0%, #181719 100%);
+}
+h3{
+    text-align: center;
+    font-family: "Wittgenstein", serif;
+    color: #f0f0f0d9;
+}
+p{
+    font-family: "Wittgenstein", serif;
+    font-size: 18px;
+    color: #f0f0f0d9;
+}
+#about{
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 0.75s;
+    display: table;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+#img1{
+    float: right;
+    animation-name: slideLeft;
+    animation-duration: 0.75s;
+    padding-left: 20px;
+}
+@keyframes slideLeft{
+    from{transform: translateX(200%);}
+}
+@keyframes slideRight{
+    to{transform: translateX(50%);}
+}
